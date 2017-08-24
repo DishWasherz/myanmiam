@@ -1,7 +1,6 @@
 beautifulsoup4==4.5.1
 bitarray==0.8.1
 blaze==0.10.1
-bokeh==0.12.2
 boto==2.42.0
 Bottleneck==1.1.0
 branca==0.2.0
@@ -12,9 +11,6 @@ constantly==15.1.0
 contextlib2==0.5.3
 cryptography==1.5
 cssselect==1.0.1
-cycler==0.10.0
-Cython==0.24.1
-cytoolz==0.8.0
 dask==0.11.0
 datashape==0.5.2
 decorator==4.0.10
@@ -108,9 +104,6 @@ singledispatch==3.4.0.3
 six==1.10.0
 snowballstemmer==1.2.1
 sockjs-tornado==1.0.3
-sphinx==1.4.6
-spyder==3.0.0
-statsmodels==0.6.1
 sympy==1.0
 toolz==0.8.0
 tornado==4.4.1
@@ -121,6 +114,7 @@ virtualenv==15.1.0
 w3lib==1.16.0
 wcwidth==0.1.7
 Werkzeug==0.11.11
+waitress==1.0.2
 widgetsnbextension==1.2.6
 win-unicode-console==0.5
 wrapt==1.10.6
