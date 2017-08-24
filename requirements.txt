@@ -41,7 +41,6 @@ ipykernel==4.5.0
 ipython==5.1.0
 ipython-genutils==0.1.0
 ipywidgets==5.2.2
-isstring==0.0.0
 itsdangerous==0.24
 jdcal==1.2
 jedi==0.9.0
