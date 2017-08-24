@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 
 import pandas as pd
-from shapely.geometry import Point, shape
 
 from flask import Flask
 from flask import render_template
@@ -26,7 +25,7 @@ def get_age_segment(age):
         return '4000+'
 
 # def get_location(longitude, latitude, provinces_json):
-    
+
 #     point = Point(longitude, latitude)
 
 #     for record in provinces_json['features']:
@@ -36,7 +35,7 @@ def get_age_segment(age):
 #     return 'other'
 
 
-# with open(data_path + '/geojson/china_provinces_en.json') as data_file:    
+# with open(data_path + '/geojson/china_provinces_en.json') as data_file:
 #     provinces_json = json.load(data_file)
 
 app = Flask(__name__)
@@ -60,7 +59,7 @@ def get_data():
     # top_10_brands_en = {'华为':'Huawei', '小米':'Xiaomi', '三星':'Samsung', 'vivo':'vivo', 'OPPO':'OPPO',
     #                     '魅族':'Meizu', '酷派':'Coolpad', '乐视':'LeEco', '联想':'Lenovo', 'HTC':'HTC'}
 
-    # df['phone_brand_en'] = df['phone_brand'].apply(lambda phone_brand: top_10_brands_en[phone_brand] 
+    # df['phone_brand_en'] = df['phone_brand'].apply(lambda phone_brand: top_10_brands_en[phone_brand]
     #                                                 if (phone_brand in top_10_brands_en) else 'Other')
 
     df['age_segment'] = df['population'].apply(lambda age: get_age_segment(age))

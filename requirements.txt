@@ -104,7 +104,6 @@ rope==0.9.4
 scipy==0.18.1
 service-identity==16.0.0
 setupfiles==0.0.50
-Shapely==1.5.17
 simplegeneric==0.8.1
 singledispatch==3.4.0.3
 six==1.10.0
