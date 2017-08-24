@@ -26,8 +26,6 @@ fastcache==1.0.2
 filelock==2.0.6
 Flask==0.11.1
 Flask-Cors==2.1.2
-folium==0.3.0
-fullpath==0.0.0
 funcsigs==1.0.2
 functools32==3.2.3.post2
 futures==3.0.5
